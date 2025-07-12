@@ -35,13 +35,27 @@ employee-directory/
 1. **Download or clone** this repository:
    ```bash
    git clone https://github.com/your-username/employee-directory.git
+   
    cd employee-directory
 
 2.Open index.html in any browser (no server or build tools required):
 
 Right-click → Open with → Browser
 
+output:
+
+ https://github.com/user-attachments/assets/3acaab4b-c965-48fd-afa7-f9781836846d
+
+ https://github.com/user-attachments/assets/c376120b-95a6-462e-b267-8872a3d2b2fc
+
+ https://github.com/user-attachments/assets/dd4cf632-3064-4895-b365-b43344d42c6f
+
+
 
 📬 Contact
+
 Dharshinie E
-[edharshinie@gmail.com] | [https://www.linkedin.com/in/dharsh-shinie/]
+
+[edharshinie@gmail.com] 
+
+[https://www.linkedin.com/in/dharsh-shinie/]
