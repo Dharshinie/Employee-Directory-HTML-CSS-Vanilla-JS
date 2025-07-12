@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Directory</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Directory</h1>
+
+    <form id="employee-form">
+      <h2 id="form-title">Add Employee</h2>
+      <label>First Name</label>
+      <input type="text" id="firstName" required />
+
+      <label>Last Name</label>
+      <input type="text" id="lastName" required />
+
+      <label>Email</label>
+      <input type="email" id="email" required />
+
+      <label>Department</label>
+      <select id="department" required>
+        <option value="">Select</option>
+        <option value="HR">HR</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Marketing">Marketing</option>
+      </select>
+
+      <label>Role</label>
+      <select id="role" required>
+        <option value="">Select</option>
+        <option value="Manager">Manager</option>
+        <option value="Developer">Developer</option>
+        <option value="Designer">Designer</option>
+      </select>
+
+      <input type="hidden" id="editingId" />
+      <button type="submit">Save</button>
+    </form>
+
+    <div class="search-filter">
+      <input type="text" id="search" placeholder="Search by name or email" />
+      <select id="filterDepartment">
+        <option value="">All Departments</option>
+        <option value="HR">HR</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Marketing">Marketing</option>
+      </select>
+      <select id="filterRole">
+        <option value="">All Roles</option>
+        <option value="Manager">Manager</option>
+        <option value="Developer">Developer</option>
+        <option value="Designer">Designer</option>
+      </select>
+    </div>
+
+    <div class="employee-grid" id="employeeGrid">
+      <!-- Employees will be rendered here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
