@@ -21,10 +21,15 @@ A fully functional and responsive Employee Directory built using **HTML**, **CSS
 ## 🗂 Folder Structure
 
 employee-directory/
+
 │
+
 ├── index.html # Main layout and structure
+
 ├── styles.css # Custom styles (responsive and modular)
-├── script.js # JavaScript logic for interactivity
+
+├── script.js # JavaScript logic for interactivity4
+
 └── README.md # Project overview and usage guide
 
 
